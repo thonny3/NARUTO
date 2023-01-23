@@ -1,0 +1,285 @@
+@font-face {
+    font-family: 'bokolo';
+    src: url('../Dancing_Script/static/DancingScript-Medium.ttf');
+}
+@font-face {
+    font-family: 'mostart';
+    src: url('../Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    overflow: hidden;
+   width: 100%;
+   height: 650px;
+   background: rgba(0, 0,0, 0.5) url("../image/605592.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: top bottom;
+   background-blend-mode: darken;
+}
+.container header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.container .titre{
+    color: yellow;
+    font-size: 25px;
+    font-family: 'bokolo';
+}
+.container nav ul{
+    display: flex;
+    list-style-type: none;
+}
+.container nav ul li a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: white;
+    
+}
+.container nav ul li a:hover{
+    border-bottom: 3px solid yellow;
+
+}
+.container .intro{
+    margin:150px auto;
+    width: 40%;
+    color: white;
+  
+}
+#intro{
+    border-bottom: 3px solid yellow;
+}
+.btn_info{
+    margin-top: 50px;
+    margin-left: 250px;
+}
+.btn_info button{
+    padding: 17px;
+    width: 170px;
+    background-color: yellow;
+    border: 2px solid yellow;
+    font-size: 22px;
+    border-radius: 40px;
+}
+.intro_1 h2{
+    font-family: 'bokolo';
+    text-decoration: underline;
+    word-spacing: 50%;
+}
+.text p{
+    line-height: 35px;
+    
+}
+#search{
+    background-color: transparent;
+    border: 2px solid white;
+    outline: none;
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+
+
+/*****************PERSONNAGE DU NARUTO ******************************/
+
+.personage{
+    background-attachment: fixed;
+  background: yellow;
+  overflow: hidden;
+  height: 700px;
+  padding: 30px 50px;
+  
+}
+.contenu_perso{
+    background: white;
+    height: 650px;
+    padding: 15px;
+}
+.contenu_perso h2{
+    font-family: 'mostart';
+}
+.liste_perso{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px 200px 200px 200px  ;
+    grid-row-gap: 50px;
+    grid-column-gap: 30px;
+  
+}
+.items{
+
+    width: 100%;
+
+}
+.hokage{
+    background: rgba(0, 0,0, 0.5) url('../image/naruto.jpg') top;
+    background-blend-mode: darken;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    
+   
+}
+.hokage h1{
+    text-align: center;
+    color: white;
+}
+.contenu_hokage{
+    padding: 20px 50px;
+    display: flex;
+}
+.text_hokage{
+ color: white;
+    width: 300px;
+    padding-left: 15px;
+    
+}
+ .text_hokage p{
+    line-height: 25px;
+    text-align: justify;
+}
+.image_hokage{
+    width: 300px;
+    height: 350px;
+    background-image: url('../image/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contenu_hokage1{
+    display: flex;
+    
+}
+.contenu_hokage2{
+    display: flex;
+    margin-left: 20px;
+    
+}
+.contenu_hokage3{
+    display: flex;
+    margin-left: 20px;
+    
+}
+.contenu_hokage4{
+    display: flex;
+    margin-left: 20px;
+    
+}
+.contenu_hokage5{
+    display: flex;
+    margin-left: 20px;
+    
+}
+.contenu_hokage1 .text_hokage  button,.contenu_hokage3 .text_hokage  button{
+    margin-left:80px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: white;
+    transition: 0.5s;
+}
+.contenu_hokage1 .text_hokage  button,.contenu_hokage3 .text_hokage  button:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
+}
+.contenu_hokage2 .text_hokage  button,.contenu_hokage4 .text_hokage  button,.contenu_hokage5 .text_hokage  button{
+    margin-left:80px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+    background-color: yellow;
+    border: none;
+    color: black;
+    transition: 0.5s;
+}
+.contenu_hokage2 .text_hokage  button,.contenu_hokage4 .text_hokage  button:hover{
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: white;
+    transition: 0.5s;
+}
+.contenu_hokage2 .image_hokage{
+    margin-left: 10px; 
+    width: 300px;
+    height: 350px;
+    background-image: url('../image/2eme.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenu_hokage3 .image_hokage{
+    margin-left: 10px; 
+    width: 300px;
+    height: 350px;
+    background-image: url('../image/3eme.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenu_hokage4 .image_hokage{
+    margin-left: 10px; 
+    width: 300px;
+    height: 350px;
+    background-image: url('../image/4eme.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contenu_hokage5 .image_hokage{
+    margin-left: 10px; 
+    width: 300px;
+    height: 350px;
+    background-image: url('../image/5eme.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.adversaire{
+    background-color: yellow;
+    height: 100%;
+    padding-bottom: 20px;
+    overflow: hidden;
+
+
+}
+.adversaire .contenu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px ;
+}
+.adversaire .adv{
+    width: 25%;
+    height: 400px;
+    border: 3px solid black;
+}
+.adversaire .adv .image{
+    width: 100%;
+    height: 70%;
+}
+.adversaire .text1 {
+    padding: 0px 5px 10px 5px ;
+}
+.adversaire h1,.adversaire .text1 h3{
+    text-align: center;
+}
+footer{
+    background-color: #333 ;
+    overflow: hidden;
+    height: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
